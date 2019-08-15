@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	height: 250px;
+	position: relative;
+}
+.title{
+	position: absolute;
+	bottom: 0;
+}
+.title>h1{
+	font-family: Impact;
+	color: white;
+	font-size: 50px;
+	text-shadow: 0 0 2px black;
+	letter-spacing: 0.3px;
+	border-bottom: 1px solid black;
+}
+.title>h5{
+	letter-spacing: 1px;
+}
+.image>img{
+	width: 500px;
+	height: 250px;
+}
+
+nav{
+	height: 50px;
+	background: #FFFF96;
+	text-align: center;
+}
+nav>h1{
+	font-size: 20px;
+}
+
+.zone1{
+	border: 1px solid black;
+	height: 300px;
+}
+.zone2{
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+
+}
+.cart ul{
+	list-style: none;
+	font-variant: small-caps;
+}
+footer{
+	height: 100px;
+}
+.panel-heading>h1{
+	font-size: 20px;
+}
